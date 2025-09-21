@@ -1,0 +1,11 @@
+[package]
+org = "dsa"
+name = "car_service"
+version = "0.1.0"
+distribution = "2201.12.9"
+
+[dependencies]
+ballerina/grpc = "2.0.0"
+
+[build-options]
+observabilityIncluded = true
